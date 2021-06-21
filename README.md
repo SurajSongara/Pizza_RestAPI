@@ -39,9 +39,11 @@ You can install all the required dependencies by running
 | ------------- |:-------------:| -----:|
 | POST      | api/add_pizza | add new pizza |
 | GET      | api/pizza      |   get all pizza |
-| GET | pizza_detail/:id      |    get pizza by id |
-| PUT | pizza_update/:id      |    update pizza by id |
-| DELETE | pizza_update/:id      |    delete pizza by id |
+| GET      | api/pizza/?type=xyz      |   get all pizza of **type** 'xyz' |
+| GET      | api/pizza/?size=xyz      |   get all pizza of **size** 'xyz' | 
+| GET | pizza_detail/id      |    get pizza by id(integer type) |
+| PUT | pizza_update/id      |    update pizza by id(integer type) |
+| DELETE | pizza_update/id      |    delete pizza by id(integer type) |
 
 
 
